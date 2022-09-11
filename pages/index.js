@@ -6,23 +6,23 @@ import Meta from "../components/home/Meta";
 import MosaicSection from "../components/mosaic/MosaicSection";
 
 import {
-  siteName,
-  blockTextOne,
-  blockTextTwo,
-  blockTextThree,
-  blockPhotoContentOne,
-  mosaicSectionContentOne,
-  mosaicSectionContentTwo,
-  mosaicSectionContentThree,
-  blockPhotoContentTwo,
+    siteName,
+    blockTextOne,
+    blockTextTwo,
+    blockTextThree,
+    blockPhotoContentOne,
+    mosaicSectionContentOne,
+    mosaicSectionContentTwo,
+    mosaicSectionContentThree,
+    blockPhotoContentTwo,
 } from "../siteInfo";
 
 export default function Home() {
-  return (
-    <div>
-      <Meta siteName={siteName} />
-      <Hero siteName={siteName} />
-      <BlockText text={blockTextOne} />
+    return (
+        <div>
+            <Meta siteName={siteName} />
+            <Hero siteName={siteName} />
+            {/* <BlockText text={blockTextOne} />
       <MosaicSection
         mosaicSectionContent={mosaicSectionContentOne}
         variation={1}
@@ -40,7 +40,7 @@ export default function Home() {
       <MosaicSection
         mosaicSectionContent={mosaicSectionContentThree}
         variation={3}
-      />
-    </div>
-  );
+      /> */}
+        </div>
+    );
 }

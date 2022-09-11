@@ -6,19 +6,21 @@
 // 5. Projects
 // 6. Studio
 // 7. About
-// 8. Contact
+// 8. Social Media
+// 9. The Process
+// 10. Contact
 
 import lightTheme from "./styles/themes/lightTheme";
 
 // 1. Meta
 
-const siteName = "DESIGNER TEMPLATE";
+const siteName = "ARTIST PORTFOLIO";
 
 const pages = [
-    { name: "PROJECTS", href: "/projects" },
+    { name: "GALLERIES", href: "/projects" },
     { name: "THE PROCESS", href: "/process" },
-    { name: "SERVICES", href: "/services" },
-    { name: "STUDIO", href: "/studio" },
+    // { name: "SERVICES", href: "/services" },
+    { name: "ABOUT", href: "/studio" },
     { name: "CONTACT", href: "/contact" },
 ];
 
@@ -26,29 +28,29 @@ const pages = [
 
 const navbar = {
     buttonOne: {
-        text: "Get Started",
-        href: "https://fictionalweb.com",
+        text: "Contact",
+        href: "/contact",
         variant: "outlined",
     },
 };
 
 const header = {
     buttonOne: {
+        text: "Contact",
+        href: "/contact",
         variant: "outlined",
-        href: "https://fictionalweb.com",
-        text: "Get Started",
     },
 };
 // 3. Home
 
 const heroContent = {
     image: { url: "/images/hero.webp", alt: "alt hero text" },
-    primaryText: "DESIGNER TEMPLATE",
+    primaryText: "ARTIST PORTFOLIO TEMPLATE",
     secondaryText: "Created by FictionalWeb.com",
     buttonOne: {
         variant: "outlined",
-        href: "https://fictionalweb.com",
-        text: "Explore",
+        href: "/projects",
+        text: "View Galleries",
     },
 };
 
@@ -329,7 +331,7 @@ const galleryConfigs = [
 
 const leadProfile = {
     image: { url: "/images/hero.webp", alt: "alt hero text" },
-    name: "Lead Designer",
+    name: "Artist Name",
     content:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit.\n\nQuibusdam eaque nihil ipsum molestias ab quod aliquid consectetur rerum facilis ratione dignissimos fugiat, enim doloribus assumenda. Laboriosam voluptatem laudantium sequi iste nihil cupiditate sed, corporis eum natus excepturi, inventore nulla unde! Veritatis nihil culpa neque.\n\nDolore ipsa sed asperiores voluptatibus nam modi. Dolorem hic incidunt quae tenetur quaerat animi, unde aspernatur.\n\nLorem ipsum, dolor sit amet consectetur adipisicing elit.\n\nQuibusdam eaque nihil ipsum molestias ab quod aliquid consectetur rerum facilis ratione dignissimos fugiat, enim doloribus assumenda. Laboriosam voluptatem laudantium sequi iste nihil cupiditate sed, corporis eum natus excepturi, inventore nulla unde! Veritatis nihil culpa neque.\n\nDolore ipsa sed asperiores voluptatibus nam modi. Dolorem hic incidunt quae tenetur quaerat animi, unde aspernatur.",
 };
@@ -355,8 +357,10 @@ const secondaryProfiles = [
     },
 ];
 // 7. About
-// 8. Contact
+// 8. Social Media
+
 // 9. Process
+// 10. Contact
 
 const processSteps = [
     {

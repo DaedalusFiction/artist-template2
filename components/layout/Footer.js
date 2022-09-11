@@ -2,6 +2,7 @@ import { Grid, Typography } from "@mui/material";
 import { Box, Container } from "@mui/system";
 import Link from "next/link";
 import React from "react";
+import SocialMediaIcons from "../general/SocialMediaIcons";
 
 const socialMedia = [
     { media: "twitter", url: "https://google.com" },
@@ -16,10 +17,11 @@ const contactInfo = [
 
 const Footer = () => {
     return (
-        <Container maxWidth="xl" sx={{ marginTop: "4rem" }}>
+        <Container maxWidth="xl">
             <Grid container sx={{ padding: "1rem 0" }}>
                 <Grid item xs={6}>
-                    <Box
+                    <SocialMediaIcons color="secondary" fontSize="25px" />
+                    {/* <Box
                         sx={{
                             display: "flex",
                             flexDirection: "column",
@@ -42,7 +44,7 @@ const Footer = () => {
                                 </Link>
                             );
                         })}
-                    </Box>
+                    </Box> */}
                 </Grid>
                 <Grid item xs={6}>
                     <Box

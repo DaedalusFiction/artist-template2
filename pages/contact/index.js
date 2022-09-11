@@ -20,7 +20,7 @@ const index = () => {
             <Container maxWidth="lg" className="section">
                 <Grid container spacing={6}>
                     <Grid item xs={12} md={6}>
-                        <Typography variant="h3">Interested?</Typography>
+                        <Typography variant="h3">Get in Touch</Typography>
                         <br />
                         <Typography>
                             Lorem ipsum, dolor sit amet consectetur adipisicing
