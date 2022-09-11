@@ -21,7 +21,7 @@ const pages = [
     { name: "THE PROCESS", href: "/process" },
     // { name: "SERVICES", href: "/services" },
     { name: "ABOUT", href: "/studio" },
-    { name: "CONTACT", href: "/contact" },
+    // { name: "CONTACT", href: "/contact" },
 ];
 
 // 2. Layout

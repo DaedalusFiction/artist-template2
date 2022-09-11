@@ -20,7 +20,14 @@ const Hero = () => {
         >
             <Header light />
             <Container maxWidth="lg">
-                <Box sx={{ padding: "35vh 0" }}>
+                <Box
+                    sx={{
+                        padding: "35vh 0",
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                    }}
+                >
                     <Typography
                         variant="h1"
                         sx={{
